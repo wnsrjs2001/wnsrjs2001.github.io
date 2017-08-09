@@ -1,0 +1,151 @@
+
+
+body {
+	min-width:400px;
+	width:95%;
+	font-size:14px;
+	font-family: 'Quicksand', sans-serif;
+	margin:0 auto;
+	color:#444;
+	text-align:center;
+	line-height:1.42857143;
+
+	}
+a {
+	text-decoration:none;
+	color:#66c1ad;
+}
+a:hover {
+	font-weight:bold;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+li {
+	list-style-type:none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Bubbler One', sans-serif;
+	font-weight: bold;
+}
+
+hr {
+	border:1px solid #eee;
+}
+header {
+	width:100%;
+}
+nav {
+	width:100%;
+	overflow: hidden;
+}
+nav ul {
+	width: 100%;
+	overflow:hidden;
+	border-bottom: 2px solid #66c1ad;
+	border-top: 2px solid #66c1ad;
+}
+nav ul li {
+	min-width:75px;
+	width:25%;
+    float:left;
+    text-align:center;
+    font-weight:bold;
+    font-size:1em;
+}
+nav ul li:hover {
+	background-color:#66c1ad;
+	color:white;
+	transition: 0.3s all ease;
+}
+
+nav ul li a {
+	display:inline-block;
+	width:100%;
+	padding:8% 0;
+	font-size:1.1rem;
+}
+
+nav ul li a:hover {
+	color:white;
+	text-decoration:none;
+}
+hr {
+	clear:left;
+} 
+span.highlight {
+	background-color:#50e3c2;
+}
+
+div {
+	margin:0 auto;
+	overflow:hidden;
+}
+div ul {
+	max-width:600px;
+	width:60%;
+	padding: 0 20%;
+	margin:0 auto;
+	text-align:left;
+	margin-bottom:2%;
+	overflow:hidden;
+}
+
+table {
+	display: table;
+	max-width:600px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: transparent;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+}
+tbody {
+	text-align: left;
+}
+th {
+	font-weight: bold;
+}
+
+
+table>tbody>tr>td, table>tbody>tr>th, table>tfoot>tr>td, table>tfoot>tr>th, table>thead>tr>td, table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #efefef;
+}
+
+#profile {
+	display:inline-block;
+	width:100px;
+	height:100px;
+	border-radius:100%;
+	border:1px solid #efefef;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+#Languages ul li {
+	display:block;
+	overflow:hidden;
+	margin-bottom: 2px;
+}
+.categoryName {
+	width:23%;
+	float:left;
+	margin-right: 2%;
+}
+.myProgress {
+  width: 75%;
+  border-bottom: 1px solid #eee;
+  float:left;
+}
+.myBar {
+  width: 0;
+  height: 20px;
+  background-color: #66c1ad;
+  margin:0;
+}
